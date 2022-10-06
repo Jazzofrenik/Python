@@ -13,6 +13,7 @@ procent()
 print()
 print("----------")
 print("----------")
+print("----------")
 print()
 
 def avans(w):
