@@ -20,4 +20,4 @@ def avans(w):
     money = w * 100 / 40
     print("Сумма:", (f'{round(money)}'), "рублей.")
 
-avans(18640)
+avans(80000)
