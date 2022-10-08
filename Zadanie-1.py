@@ -6,7 +6,7 @@ if 3 <= mounth <= 5:
 if 6 <= mounth <= 8:
     print("Лето")
 if 9 <= mounth <= 11:
-    print("Осень")5
+    print("Осень")
 if mounth <= 0 or mounth > 12:
     print("В году только 12 месяцев! Попробуйте еще раз.")
 
