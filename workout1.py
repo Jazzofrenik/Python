@@ -98,9 +98,11 @@ y[1][0] = 0
 print(y[0][0])
 
 
-class Foo:
-    def __index__(self):
-        return '123'
+# class Foo:
+#     def __index__(self):
+#         return '123'
+#
+# print(repr(int(Foo())))
 
-print(repr(int(Foo())))
+print(int('16', 10))
 
