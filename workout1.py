@@ -50,6 +50,12 @@ print(len(foo.__dict__))
 print([1, 2, 3] == {1, 2, 3})
 print([1, 2, 3] == (1, 2, 3))
 
+print('************************')
+print('************************')
+
+x = [0.1] * 10
+print(sum(x))
+
 print()
 print('---------------------------------')
 print()
@@ -72,10 +78,14 @@ print()
 print('---------------------------------')
 print()
 
-a = {'a': 10, 'b': 15}
-b = {'b': 20, 'c': 25}
 
-print(a | b)
+
+print()
+print('---------------------------------')
+print()
+
+x = list(range(10, 5))
+print(x)
 
 print()
 print('---------------------------------')
@@ -94,4 +104,13 @@ d = {dict(): 'abc',
      set(): 'cba'}
 
 print(d[{}])
+
+
+# class Foo:
+#     def __index__(self):
+#         return '123'
+#
+# print(repr(int(Foo())))
+
+print(int('16', 10))
 
