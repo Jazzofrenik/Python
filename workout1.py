@@ -86,4 +86,12 @@ print(y)
 y[1][0] = 0
 
 print(y[0][0])
+print()
+print('---------------------------------')
+print()
+
+d = {dict(): 'abc',
+     set(): 'cba'}
+
+print(d[{}])
 
