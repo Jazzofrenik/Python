@@ -105,4 +105,46 @@ print(y[0][0])
 # print(repr(int(Foo())))
 
 print(int('16', 10))
+print()
+print('---------------------------------')
+print()
+
+a = [1, 2, 3, 4]
+
+print(a[1:3:None])
+
+print()
+print('---------------------------------')
+print()
+
+print(hash(-1) == hash(-2))
+
+print()
+print('---------------------------------')
+print()
+
+text = 'hi user!'
+text = text.translate({
+    ord('h'): ord('k')
+})
+print(text)
+
+print()
+print('---------------------------------')
+print()
+
+class Foo:
+    x = 1
+    def __init__(self):
+        self.x = 2
+
+print(Foo().x)
+print(Foo.x)
+
+print()
+print('---------------------------------')
+print()
+
+a = {1, True, "1"}
+print(len(a))
 
