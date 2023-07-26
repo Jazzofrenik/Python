@@ -159,12 +159,18 @@
 print()
 print('---------------------------------')
 print()
+#
+# class Foo:
+#     @classmethod
+#     def func(cls):
+#         return  cls. __name__
+# class Bar(Foo):
+#     pass
+#
+# print(Bar.func())
 
-class Foo:
-    @classmethod
-    def func(cls):
-        return  cls. __name__
-class Bar(Foo):
-    pass
+print()
+print('---------------------------------')
+print()
 
-print(Bar.func())
+print(1 in '123')
